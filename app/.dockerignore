@@ -1,9 +1,17 @@
+# .dockerignore
 .git
 .github
-node_modules
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+env/
+node_modules/
 npm-debug.log
 .env
 *.pem
 credentials.json
-coverage
+coverage/
 README.md
+
