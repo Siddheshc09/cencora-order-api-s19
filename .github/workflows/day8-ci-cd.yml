@@ -17,7 +17,7 @@ permissions:
   packages: write 
 env: 
   REGISTRY: ghcr.io 
-  IMAGE_NAME: ${{ github.repository }} 
+  IMAGE_NAME: siddheshc09/cencora-order-api-s19 
   PYTHON_VERSION: "3.12" 
 jobs: 
   build: 
